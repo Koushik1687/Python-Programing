@@ -1,0 +1,7 @@
+f = open("Assignment7.8.txt","w+")
+g = input("Enter some text :\n")
+f.write(g)
+f.close()
+f = open("text2.txt","r")
+print("The text you have entered :\n",f.read())
+f.close()
