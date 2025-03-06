@@ -1,0 +1,7 @@
+f = open("D:\\Coding\\Python\\Python-Programing\\Assignments\\Assignmnet 7\\Assignmnet7.8.txt","w+")
+g = input("Enter some text :\n")
+f.write(g)
+f.close()
+f = open("D:\\Coding\\Python\\Python-Programing\\Assignments\\Assignmnet 7\\Assignmnet7.8.txt","r")
+print("The text you have entered :\n",f.read())
+f.close()
