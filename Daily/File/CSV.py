@@ -1,4 +1,4 @@
-file=open('Stroke1.csv', 'r')
+file=open('D:\\Coding\\Python\\Python-Programing\\Daily\\File\\Stroke.csv', 'r')
 i=0
 bmi = []
 for line in file:
