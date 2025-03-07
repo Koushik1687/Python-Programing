@@ -94,7 +94,7 @@ ID,Gender,Age,Hypertension,Heart_Disease,Ever_Married,Work_Type,Residence_Type,A
 40840,Female,49,0,0,Yes,Private,Rural,138.16,19.4,never smoked,0
 10449,Female,24,0,0,Yes,Private,Urban,75.23,29,never smoked,0
 38805,Female,37,0,0,Yes,Private,Rural,75.18,48.2,formerly smoked,0
-31091,Male,34,0,1,Yes,Private,Urban,106.23,,formerly smoked,0
+31091,Male,34,0,1,Yes,Private,Urban,106.23,70,formerly smoked,0
 45053,Male,64,0,0,Yes,Govt_job,Urban,239.64,34.6,formerly smoked,0
 61837,Female,66,0,0,Yes,Self-employed,Urban,58.95,24.6,never smoked,0
 9487,Female,23,0,0,No,Private,Urban,99.92,25.8,never smoked,0
