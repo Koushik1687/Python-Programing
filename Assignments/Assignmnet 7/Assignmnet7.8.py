@@ -1,5 +1,5 @@
 f = open("D:\\Coding\\Python\\Python-Programing\\Assignments\\Assignmnet 7\\Assignmnet7.8.txt","w+")
-g = input("Enter some text :\n")
+g = input("Enter some text : ")
 f.write(g)
 f.close()
 f = open("D:\\Coding\\Python\\Python-Programing\\Assignments\\Assignmnet 7\\Assignmnet7.8.txt","r")

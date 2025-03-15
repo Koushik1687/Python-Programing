@@ -1,1 +1,1 @@
-He is a good boy
+& "d:/Coding/tf-env copy/Scripts/python.exe" "d:/Coding/Python/Python-Programing/Assignments/Assignmnet 7/Assignmnet7.9.py"
