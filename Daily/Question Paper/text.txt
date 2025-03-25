@@ -1,0 +1,12 @@
+1.	Write python program that display the String “Good Morning” but display the punch line “How are you” only when the user presses enter key.
+2.	Write a program to read a number in n and prints n^2, n^3, n^4.
+3.	Write a program to take the temperatures of all 7 days of the week and displays the average temperature of that week.
+4.	Write a program to calculate body mass index of a person. BMI=kg/m^2 where kg is a person's weight in kilogram and m^2 is the height in meter squared.
+5.	Write a program to input a single digit(n) and print a 3 digit number created as <n(n+1)(n+2)> e.g., if you input 7, then it should print 789. Assume that the input digit is in range 1-7.
+6.	Write a program to convert dollars in Rupee.
+7.	Write a program to take a 3-digit number and then print the reversed number. That is, if you input 123, the program should print 321.
+8.	Write a Python program to input 3 numbers and check all are same or not.
+9.	Write a program to calculate the roots of a given quadratic equation.
+10.	Write a program to take two numbers and print if the first number is fully divisible by second number or not.
+11.	Write a program to take value of x,y,z from the user and calculate the equation
+   
