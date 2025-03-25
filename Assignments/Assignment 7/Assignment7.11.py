@@ -1,6 +1,6 @@
 upper = lower = 0
 
-with open("D:\\Coding\\Python\\Python-Programing\\Assignments\\Assignmnet 7\\Assignmnet7.11.txt", "r") as file:
+with open("D:\\Coding\\Python\\Python-Programing\\Assignments\\Assignment 7\\Assignment7.11.txt", "r") as file:
     for line in file:
         print(line.strip())  
         for char in line:

@@ -1,0 +1,11 @@
+f = open("D:\\Coding\\Python\\Python-Programing\\Assignments\\Assignment 7\\Assignment7.5.txt","w+")
+f.write("Hello, This is my first file\nPython makes file handeling easy")
+f.seek(0)
+print(f.read())
+f.close()
+
+# f = open("D:\\Coding\\Python\\Python-Programing\\Assignments\\Assignment 7\\Assignment7.5.txt","w+")
+# f.write("Hello, This is my first file\nPython makes file handeling easy")
+# f.close()
+# f = open("text.txt","r")
+# print(f.read())
