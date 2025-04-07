@@ -1,28 +1,31 @@
-import pandas as pd
-import matplotlib.pyplot as plt
+from matplotlib import pyplot as plt 
 import numpy as np
+import pandas as pd 
+
+width = 0.2
+path =  "D:\\Coding\\Python\\Python-Programing\\Assignments\\Assignment 8\\crime_data.csv"
+
+with open(path,'r') as file:
+    data =  pd.read_csv(file)
+    Country = data['Country']
+    Murder = data['Murder']
+    Assault = data['Assault']
+    UrbanPop = data['UrbanPop']
+    Rape = data['Rape']
+
+C = np.arange(len(Country))
+
+plt.bar(C+0.0,Murder,width,color = 'r')
+plt.bar(C+0.2,Assault,width,color = 'g')
+plt.bar(C+0.4,UrbanPop,width,color = 'b')
+plt.bar(C+0.6,Rape,width,color = 'c')
+
+plt.xticks(rotation =63)
+plt.xticks(C,Country)
 
 
-file_path = "D:\\Coding\\Python\\Python-Programing\\Assignments\\Assignment 8\\crime_data.csv"
-df = pd.read_csv(file_path)
-
-plt.figure(figsize=(15, 6))
-
-bar_width = 0.2
-
-x = np.arange(len(df["Country"]))
-
-plt.bar(x, df["Murder"], width=bar_width, label="Murder")
-plt.bar(x + bar_width, df["Assault"], width=bar_width, label="Assault")
-plt.bar(x + 2 * bar_width, df["UrbanPop"], width=bar_width, label="UrbanPop")
-plt.bar(x + 3 * bar_width, df["Rape"], width=bar_width, label="Rape")
-
-plt.xticks(x + 1.5 * bar_width, df["Country"], rotation=90)
-
-plt.xlabel("Country")
-plt.ylabel("Crime Rate")
-plt.title("Crime Rates by Country")
-
-plt.legend()
+plt.xlabel('Country Name')
+plt.ylabel('Crime Rate')
+plt.title('Crime Data')
 
 plt.show()
