@@ -1,3 +1,6 @@
-f = open("Python\\Python-Programing\\Assignments\\Assignment 9\\Assignment9.1.txt","r")
-fline= f.readlines()
-print("First Line : ",fline[0])
+num = int(input("Please enter number of line your want to print :"))
+with open("D:\\Coding\\Python\\Python-Programing\\Assignments\\Assignment 9\\Assignment9.1.txt","r") as f:
+    fline= f.readlines()
+for line in range (0,num):
+    print(fline[line].strip()) 
+
