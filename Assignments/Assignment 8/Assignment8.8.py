@@ -20,9 +20,8 @@ plt.bar(C+0.2,Assault,width,color = 'g')
 plt.bar(C+0.4,UrbanPop,width,color = 'b')
 plt.bar(C+0.6,Rape,width,color = 'c')
 
-plt.xticks(rotation =63)
+plt.xticks(rotation = 63)
 plt.xticks(C,Country)
-
 
 plt.xlabel('Country Name')
 plt.ylabel('Crime Rate')
