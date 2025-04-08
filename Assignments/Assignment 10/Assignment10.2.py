@@ -1,3 +1,3 @@
-import datetime
-t = datetime.datetime.now()
-print(t)
+import time
+t = time.strftime("%H:%M:%S")
+print('Current time is ', t)
