@@ -1,10 +1,7 @@
-num = int(input("Enter a numbers between 15 to 25 to check that is it Prime or not : "))
-flag = 0
-for i in range(2,num):
-  if num%i==0:
-    flag = 1
-    break
-if flag == 1:
-  print('Not Prime')
-else:
-  print("Prime")
+for num in range(15, 26):
+    if num > 1:
+        for i in range(2, num):
+            if num % i == 0:
+                break
+        else:
+            print(num, "is a prime number")

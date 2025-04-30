@@ -1,8 +1,8 @@
-lt = [0,0,0,0,0,0]
+lt = []
 l = ["Bengali","English","Mathematics","Science","History","Geography"]
 for i in range(0,6):
     print("Please enter",l[i],"'s Marks :")
-    lt[i] = int(input())
+    lt.append(int(input()))
 print("\nThe marks you got: ")
 for i in range(6):
     print(l[i],"Makrs :",lt[i])

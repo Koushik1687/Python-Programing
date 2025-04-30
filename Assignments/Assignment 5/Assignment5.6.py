@@ -1,10 +1,14 @@
-List1 = [3, 7, 1, 9, 5, 10, 6]
-largest = max(List1)
-index = List1.index(largest)
-
-predecessor = List1[index - 1] if index > 0 else None
-successor = List1[index + 1] if index < len(List1) - 1 else None
-
-print("Largest element:", largest)
+numbers = [10, 20, 4, 45, 99, 12, 7]
+largest = max(numbers)
+index = numbers.index(largest)
+if index > 0:
+    predecessor = numbers[index - 1]
+else:
+    predecessor = None
+if index < len(numbers) - 1:
+    successor = numbers[index + 1]
+else:
+    successor = None
+print("Largest number:", largest)
 print("Predecessor:", predecessor)
-print("Successor:", successor)
+print("Successor:",successor)
