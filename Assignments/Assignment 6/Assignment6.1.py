@@ -15,3 +15,5 @@ if num1 == num2 or num2 == num3 or num1 == num3:
     
 else:
     print("All numbers are unique")
+
+
